@@ -1,0 +1,4 @@
+python3 darknet_zed.py -c yolov3.cfg -w yolov3.weights -m coco.data -t 0.5
+
+python3 darknet_zed.py -c yolov3dd.cfg -w yolov3dd_40000.weights -m obj.data -t 0.5
+

@@ -1,0 +1,7 @@
+ZED Explorer:       /usr/local/zed/tools/ZED\ Explorer
+ZED Depth Viewer:   /usr/local/zed/tools/ZED\ Depth\ Viewer
+
+ZED YOLO: ./darknet_zed obj.names yolov3dd.cfg yolov3dd_40000.weights
+Zed Python Yolo: python3 darknet_zed.py -c yolov3dd.cfg -w yolov3dd_40000.weights -m obj.data -t 0.5
+
+
